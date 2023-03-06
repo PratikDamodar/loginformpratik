@@ -1,0 +1,46 @@
+.container{
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-flow: column;
+    width: 350px;
+    height: 250px;
+    justify-content: space-evenly;
+    border-radius: 5px;
+}
+input ,button{
+    border: none;
+    background-color: #e7e7e7;
+    padding: 5px;
+    border-radius: 4px;
+
+}
+button{
+    background-color: dodgerblue;
+}
+.box1{
+
+display: flex;
+justify-content: space-between;
+}
+.box2{
+    display: flex;
+    justify-content: center;
+}
+a{
+    text-decoration: none;
+    color: dodgerblue;
+}
+.rootcontainer{
+ /* border: 10px solid red; */
+ height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-color: #e7e7e7;
+
+
+}
+body{
+    margin: 0px;
+}
